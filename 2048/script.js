@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function moveup() {
+    function moveDown() {
         for (let i = 0; i < 4; i++) {
             let totalOne = squares[i].innerHTML;
             let totalTwo = squares[i + width].innerHTML;
